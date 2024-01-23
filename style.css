@@ -59,7 +59,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 .logo:hover {
@@ -167,6 +167,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  position: relative;
 }
 
 .section__pic-container {
@@ -214,8 +215,8 @@ section {
 
 /* ICONS */
 .icon {
-  cursor: pointer;
-  height: 2rem;
+  cursor: default;
+  height: 3rem;
 }
 
 /* Buttons */
@@ -267,8 +268,12 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
-  bottom: 10rem;
+  right: -8rem;
+  bottom: 5rem;
+}
+
+.arrow:hover {
+  background: lightgray;
 }
 
 .details-container {
