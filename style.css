@@ -208,10 +208,14 @@ section {
   gap: 1rem;
 }
 
+#socials-container .icon:hover {
+  filter: invert(30%) sepia(100%) saturate(300%) hue-rotate(180deg);
+}
+
 /* ICONS */
 .icon {
   cursor: pointer;
-  height: 3rem;
+  height: 2rem;
 }
 
 /* Buttons */
@@ -229,32 +233,10 @@ section {
   border-radius: 2rem;
 }
 
-.btn-color-1,
-.btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
-}
-
-.btn-color-1:hover,
-.btn-color-2:hover {
-  cursor: pointer;
-}
-
-.btn-color-1,
-.btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
-}
-
-.btn-color-1:hover {
+/* BUTTON HOVER EFFECT */
+.btn:hover {
   background: rgb(0, 0, 0);
-}
-
-.btn-color-2 {
-  background: none;
-}
-
-.btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
+  color: white;
 }
 
 /* About Section */
