@@ -101,6 +101,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 1;
 }
 
 .menu-links {
@@ -297,6 +298,10 @@ section {
   margin: auto 0;
 }
 
+.education-icon {
+  height: 2.5rem;
+}
+
 /* Experience Section */
 #experience {
   position: relative;
@@ -372,7 +377,7 @@ article .icon {
 }
 
 .email-icon {
-  height: 3.5rem;
+  height: 3.8rem;
 }
 
 /* Footer Section*/
