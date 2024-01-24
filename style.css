@@ -277,7 +277,7 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -373,6 +373,10 @@ article .icon {
 
 .contact-icon {
   cursor: default;
+}
+
+#contact .contact-icon:hover {
+  filter: invert(30%) sepia(100%) saturate(300%) hue-rotate(180deg);
 }
 
 .email-icon {
