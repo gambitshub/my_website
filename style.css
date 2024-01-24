@@ -269,7 +269,7 @@ section {
 .arrow {
   position: absolute;
   right: -8rem;
-  bottom: 5rem;
+  bottom: -5rem;
 }
 
 .arrow:hover {
