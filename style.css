@@ -1,5 +1,4 @@
 /* GENERAL */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
 /* target whole page with * */
@@ -9,8 +8,6 @@
 }
 
 body {
-  /* font-family: "Poppins", sans-serif; */
-  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -179,8 +176,6 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
-  border-radius: 2rem; /* Add border-radius for rounded corners */
-  overflow: hidden; /* Ensure overflow is hidden to round the corners */
 }
 
 .section__text {
@@ -267,6 +262,7 @@ section {
 }
 
 .about-pic {
+  margin-top: 2rem;
   border-radius: 2rem;
 }
 
