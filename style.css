@@ -160,6 +160,7 @@ section {
 
 .section-container {
   display: flex;
+  justify-content: center; /* Center the container horizontally */
 }
 
 /* Profile Section */
@@ -337,6 +338,12 @@ section {
 
 article .icon {
   cursor: default;
+}
+
+.text-container {
+  text-align: justify;
+  text-align: center; /* Center align the text */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
 /* Contact */
