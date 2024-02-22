@@ -1,7 +1,7 @@
 /* GENERAL */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 
-/* target whole page with * */
+/* Whole Page * */
 * {
   margin: 0;
   padding: 0;
@@ -59,7 +59,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .logo:hover {
@@ -151,8 +151,8 @@ a:hover {
 /* Sections */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  padding-top: 2vh;
+  height: 80vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -250,15 +250,12 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  display: flex;
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
   display: flex;
 }
 
@@ -267,18 +264,8 @@ section {
   border-radius: 2rem;
 }
 
-.arrow {
-  position: absolute;
-  right: -8rem;
-  bottom: 5rem;
-}
-
-.arrow:hover {
-  background: lightgray;
-}
-
 .details-container {
-  padding: 1rem;
+  padding: 2rem;
   flex: 1;
   background: white;
   border-radius: 2rem;

@@ -30,12 +30,6 @@
     margin-bottom: 8rem;
   }
 
-  .arrow {
-    /* display: none; */
-    position: absolute;
-    right: -2rem;
-    bottom: -4rem;
-  }
   section,
   .section-container {
     height: fit-content;
@@ -62,9 +56,6 @@
   #profile {
     height: 83vh;
     margin-bottom: 0;
-  }
-  .arrow {
-    display: none;
   }
   article {
     font-size: 1rem;

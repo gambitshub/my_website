@@ -14,6 +14,7 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -29,6 +30,7 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
@@ -68,12 +70,6 @@
           />
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow Icon"
-        class="icon arrow"
-        onclick="location.href='./#about'"
-      />
     </section>
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
@@ -114,24 +110,18 @@
             </div>
           </div>
           <div class="text-container">
-            <p>I enjoy mountain biking, live music and motorsports.</p>
+            <p>Committed to driving innovation in software solutions and staying attuned to emerging technologies. Currently developing a project aimed at aggregating online content into a personalised feed.</p>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow Icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
     </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+    <section id="skills">
+      <p class="section__text__p1">Check Out My</p>
+      <h1 class="title">Skills</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Programming Languages</h2>
+            <h2 class="experience-sub-title">Languages</h2>
             <div class="article-container">
               <article>
                 <img
@@ -196,11 +186,93 @@
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
             </div>
           </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
+                alt="PyTorch icon"
+                class="icon"
+              />
+                <div>
+                  <h3>Pytorch</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                alt="TensorFlow icon"
+                class="icon"
+              />
+                <div>
+                  <h3>TensorFlow</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                alt="React icon"
+                class="icon"
+              />
+                <div>
+                  <h3>React</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg"
+                alt="Git icon"
+                class="icon"
+              />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+                alt="MongoDB icon"
+                class="icon"
+              />
+                <div>
+                  <h3>MongoDB</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"
+                alt="Docker icon"
+                class="icon"
+              />
+                <div>
+                  <h3>Docker</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg"
+                alt="Docker icon"
+                class="icon"
+              />
+                <div>
+                  <h3>OpenCV</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
           <div class="details-container">
             <h2 class="experience-sub-title">Specialty</h2>
             <div class="article-container">
@@ -244,31 +316,63 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Point Cloud Registration</h3>
+                  <h3>Point Cloud Data</h3>
                   <p>Research</p>
                 </div>
               </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Projects</h2>
+            <div class="article-container">
               <article>
                 <img
-                  src="./assets/checkmark.png"
+                src="./assets/checkmark.png"
                   alt="experience icon"
                   class="icon"
                 />
                 <div>
-                  <h3>Avionics</h3>
-                  <p>Research</p>
+                  <h3>Web Content Aggregator</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Standalone GPS Receiver</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Georeferencing</h3>
+                  <p> LiDAR</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Asset Price Prediction</h3>
+                  <p>Using Sentiment Analysis</p>
                 </div>
               </article>
             </div>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow Icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
     </section>
     <section id="contact">
       <p class="section__text__p1">Get In Touch</p>
@@ -301,6 +405,7 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
